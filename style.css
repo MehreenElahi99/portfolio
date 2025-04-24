@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  color: #222;
+}
+
+h1 {
+  color: #05613D;
+  border-bottom: 2px solid #05613D;
+  padding-bottom: 5px;
+}
+
+h2 {
+  display: inline-block;
+  background-color: #05613D;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-top: 30px;
+}
+
+.two-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.small-box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #05613D;
+  margin-right: 5px;
+}
+
+.right {
+  text-align: right;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
